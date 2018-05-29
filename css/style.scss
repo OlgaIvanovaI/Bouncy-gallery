@@ -619,6 +619,12 @@ header {
   }
 }
 
+.eleven {
+  height: 900px;
+  .owl-carousel {
+    display: inline-block;
+  }
+}
 
 .thirteen {
   background: #f3f3f3;

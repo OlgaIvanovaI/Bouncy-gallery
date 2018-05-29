@@ -13,6 +13,14 @@
     <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link href="css/style-gg.css" rel="stylesheet" type="text/css">
+    <!-- Owl Carousel css -->
+    <link href="css/owl.carousel.scss" rel="stylesheet" type="text/css">
+    <link href="css/owl.theme.default.scss" rel="stylesheet" type="text/css">
+
+    <!-- Owl Carousel js -->
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+
     <script src="js/modernizr.custom.70736.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
@@ -355,7 +363,6 @@
         <script src="js/js-url.min.js"></script>
         <script src="js/jquerypp.custom.js"></script>
         <script src="js/gamma.js"></script>
-        <!--<script type="text/javascript">-->
 
         <div class="start-project">
             <p>At vero eos et <span class="bold">accusamus</span> et iusto odio <span class="bold">dignissimos</span> ducimus qui blanditiis </p>
@@ -504,7 +511,49 @@
         </div>
     </section>
 
-     <!--section 11,12-->
+    <section class="eleven">
+        <div class="container">
+            <div class="owl-carousel">
+                <div class="item">
+                    <img src="images/gal5.png">
+                    <span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</span>
+                </div>
+
+                <div class="item">
+                    <img src="images/gal5.png">
+                    <span>MAKE YOUR TV <br> LOOK BEAUTIFUL</span>
+                </div>
+
+                <div class="item">
+                    <img src="images/gal5.png">
+                    <span>MAKE YOUR TV <br> LOOK BEAUTIFUL</span>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                navText: [ 'sadgfsdhgkusdhgk', 'next' ],
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                }
+            });
+        </script>
+    </section>
+
+     <!--section 12-->
+
     <section class="thirteen">
         <div class="container">
             <h2>OUR PRICE</h2>
