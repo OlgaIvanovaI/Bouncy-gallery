@@ -706,6 +706,7 @@ header {
       background: transparent;
       border-bottom: 1px solid $main-color;
       margin-bottom: 15px;
+      color: white;
         @include max-screen(767px){
           padding: 8px 100px 8px 10px;
         }

@@ -562,7 +562,8 @@ header {
       padding: 12px 160px 12px 22px;
       background: transparent;
       border-bottom: 1px solid #81868e;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      color: white; }
       @media screen and (max-width: 767px) {
         .fourteen .subscribe #email {
           padding: 8px 100px 8px 10px; } }

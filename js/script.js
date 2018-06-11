@@ -1,10 +1,3 @@
-// $('#myTabs a').click(function (e) {
-//     e.preventDefault()
-//     $(this).tab('show')
-// })
-
-
-
 $(function() {
 
     var GammaSettings = {
@@ -31,20 +24,3 @@ $(function() {
 
 });
 
-// $('.owl-carousel').owlCarousel({
-//     loop: true,
-//     margin: 10,
-//     nav: true,
-//     navText: ['sadgfsdhgkusdhgk', 'next'],
-//     responsive: {
-//         0: {
-//             items: 1
-//         },
-//         600: {
-//             items: 1
-//         },
-//         1000: {
-//             items: 1
-//         }
-//     }
-// });
